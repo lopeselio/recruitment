@@ -1,0 +1,68 @@
+/* .main{
+  background-color:#333333;
+  width:100%;
+  position:absolute;
+  bottom:0px;
+  color:white;
+} */
+
+.footerContent {
+    /* text-align: center; */
+    align-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.FooterGrid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.acml {
+    padding-top: 50px;
+    height: 87px;
+    /* padding-bottom: 30px; */
+    /* width: 50px !important;
+  height: 50px !important; */
+}
+
+.footerContent {
+    background: #5e8ab4;
+    color: white;
+    margin-top: 100px;
+    ;
+}
+
+.Footer-Grid {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sm {
+    /* float: left; */
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    /* margin-left: 20px; */
+}
+
+.socMed {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.vitlg {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/* .vitLogo {
+  align-content: center;
+  vertical-align: center;
+
+} */

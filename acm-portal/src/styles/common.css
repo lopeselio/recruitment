@@ -1,0 +1,12 @@
+.App{
+  /* background-color:black; */
+  height:100%;
+  width:100%;
+  position:relative;
+}
+.box{
+  height:200px;
+  width:200px;
+  background-color:red;
+  color:white;
+}

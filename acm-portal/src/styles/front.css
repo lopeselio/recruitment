@@ -1,0 +1,79 @@
+.FrontGrid {
+  margin-top: 120px !important;
+}
+.frontContent {
+  background:#5e8ab4;
+  /* background: url(./../assets/background-01.png); */
+  height: 100vh;
+  width: auto;
+  color:#fff;
+}
+
+.community {
+  height: 80%;
+  width: 80%;
+  align-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
+
+.front-info {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  color: #fff;
+  text-align: center !important;
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.acmlogo {
+  height: 50%;
+  /* width: auto; */
+  /* padding-top: 30px; */
+  /* vertical-align: center; */
+  margin-left: 40%;
+  margin-top: 15px;
+}
+
+.name {
+  font-size: 7px;
+  margin-top: 10px !important;
+  /* vertical-align: center; */
+
+}
+
+.button {
+  /* margin-left: 150px !important; */
+  padding-left: 200px !important ;
+}
+  .aws-btn__wrapper::after{
+  background: #9D2235 !important;
+  border-radius:  10px !important;
+  text-align: center !important;
+  /* margin-left: 30px !important; */
+
+
+
+}
+
+.heading {
+
+  align-content: center !important;
+  align-items: center !important;
+}
+
+
+
+.ACM {
+  padding-top: 30px;
+}
+
+.styles_typicalWrapper__1_Uvh {
+  font-size: 20px;
+  padding-bottom:20px;
+}

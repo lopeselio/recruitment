@@ -1,0 +1,61 @@
+.domainContent {
+  background: #fff;
+  height: 100vh;
+  width: auto;
+  color: #9d2235;
+  font-weight: 2px solid;
+  top: auto !important;
+  margin-top: 0 !important;
+}
+
+.lg {
+  height: 250px;
+  width: 300px;
+  vertical-align: baseline !important;
+  -webkit-transition: all 1s ease;
+                   -moz-transition: all 1s ease;
+                        -o-transition: all 1s ease;
+                     -ms-transition: all 1s ease;
+                            transition: all 1s ease;
+}
+
+.lg:hover{
+  border: 2px solid #9d2235;
+                 border-radius:50%;
+               -webkit-transition: all 1s ease;
+                  -moz-transition: all 1s ease;
+                       -o-transition: all 1s ease;
+                    -ms-transition: all 1s ease;
+                           transition: all 1s ease; 
+                          
+}
+.domainGrid {
+  margin: 100px 50px 50px 50px !important;
+}
+
+
+
+.heading {
+
+  width:100%;
+  padding-top: 50px !important;
+  font-weight: 1500 !important;
+  background: #9d2235;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.desc {
+  font-size: 25px !important;
+  padding-top: 5px !important;
+  /* vertical-align: baseline !important; */
+  font-weight: bold;
+  margin-left: 20%;
+  margin-top: 2% ;
+
+}
+
+.tech, .management, .design {
+  padding-top: 2% !important ;
+}
