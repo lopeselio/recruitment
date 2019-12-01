@@ -18,7 +18,12 @@
   font-family: "Poppins";
   scroll-behavior: smooth;
 }
-
+html {
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+}
 
 .App{
   /* background-color:black; */

@@ -10,7 +10,7 @@ export default class Domain extends Component {
     return (
       <div className='domainContent'>
         <div className='heading'> Our Domains </div>
-        <Grid className='domainGrid' container spacing={2}>
+        <Grid className='domainGrid' container>
 
           <Grid
             className='tech'
@@ -49,7 +49,7 @@ export default class Domain extends Component {
                 src={des}
               />
             </div>
-            <div className='desc'>Design and UI/UX</div>
+            <span className='desc'>Design and UI/UX</span>
 
           </Grid>
 
