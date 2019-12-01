@@ -1,54 +1,51 @@
 import React, { Component } from 'react'
-import Grid from '@material-ui/core/Grid';
+import Grid from '@material-ui/core/Grid'
 import './../../styles/front.css'
 import './../../styles/common.css'
 import community from './../../assets/acmfront.svg'
-import { AwesomeButton } from "react-awesome-button";
+import { AwesomeButton } from 'react-awesome-button';
 // import { AwesomeButton} from 'react-awesome-button';
 import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss'
 import acm from './../../assets/acmlogo.png'
-import Magnifier from "react-magnifier";
+import Magnifier from 'react-magnifier';
 import Typical from 'react-typical'
 
-
-
-
-
 export default class Front extends Component {
-  render() {
+  render () {
     return (
       <div className='frontContent'>
         <Grid className='ACM' container spacing={0}>
-          <Grid className='space' item xs={12} md={3}></Grid>
+          <Grid className='space' item xs={12} md={3} />
           <Grid className='logo' item xs={12} md={3}>
             <Magnifier className='acmlogo' src={acm} width={150} />
           </Grid>
           <Grid className='name' item xs={12} md={3}>
             <Typical
+              id='top'
               loop={Infinity}
-              wrapper="p"
+              wrapper='p'
               steps={[
                 'Association for Computing Machinery ',
                 200,
-                '______ Because Technology Matters ', 200
-                ]}
+                '______ Because Technology Matters ', 200,
+                'Welcome to ACM-VIT 2k19 Core Committee Recruitments', 200
+
+              ]}
 
             />
             {/* <h1>Association for Computing Machinery</h1> */}
           </Grid>
 
-          <Grid className='space' item xs={12} md={3}></Grid>
+          <Grid className='space' item xs={12} md={3} />
         </Grid>
 
         <Grid className='FrontGrid' container spacing={2}>
 
           <Grid className='landing' item xs={12} md={6}>
             <div className='front-img'>
-              <img className='community' src={community}></img>
+              <img className='community' src={community} />
             </div>
           </Grid>
-
-
 
           <Grid className='landing-info' item xs={12} md={4}>
             <div className='front-info'>
@@ -61,32 +58,29 @@ export default class Front extends Component {
               <br />
               <br />
 
-
-
-
               <div>Technical | Design | Management | Research</div>
             </div>
             <div className='button'>
               <AwesomeButton
                 cssModule={AwesomeButtonStyles}
-                type="primary"
+                type='primary'
                 ripple
-                href=""
-                target="_blank"
+                href=''
+                target='_blank'
                 // type={select('type', ['primary', 'secondary', 'link'], 'primary')}
 
                 loadingLabel='Loading..'
                 resultLabel='Done!'
-              // size={select('size', [null, 'small', 'medium', 'large'], 'large')}
-              // disabled={boolean('disabled', false)}
-              // fakePress={boolean('fakePress', false)}
-              // cssModule={cssModule}
-              // action={(element, next) => {
-              //   action('clicked');
-              //   setTimeout(() => {
-              //     next();
-              //   }, 300);
-              // }
+                // size={select('size', [null, 'small', 'medium', 'large'], 'large')}
+                // disabled={boolean('disabled', false)}
+                // fakePress={boolean('fakePress', false)}
+                // cssModule={cssModule}
+                // action={(element, next) => {
+                //   action('clicked');
+                //   setTimeout(() => {
+                //     next();
+                //   }, 300);
+                // }
 
               // }
               >
@@ -95,7 +89,6 @@ export default class Front extends Component {
             </div>
 
           </Grid>
-
 
         </Grid>
 

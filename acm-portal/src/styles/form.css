@@ -1,0 +1,31 @@
+.formContent, .hintText {
+  height: 100vh;
+  width: auto;
+  background-color: #9d2235 !important;
+  color: white;
+}
+
+.reg {
+  font-size: 60px;
+  padding: 20px 20px;
+  margin: auto;
+  width: 50%;
+  font-weight: bolder;
+}
+
+.instruction {
+  font-size:15px;
+  padding: 5px 5px;
+  margin: auto;
+  width: 50%;
+  font-weight: normal;
+}
+
+.form {
+  padding-left: 30px;
+}
+
+#undefined-EnteryourName-Name-14709 {
+  background-color: red !important;
+  color: #fff !important;
+}

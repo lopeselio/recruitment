@@ -1,3 +1,13 @@
+
+p.styles_typicalWrapper__1_Uvh{
+  font-size: 15px !important;
+  width: 100% !important;
+  
+  margin-left: 10px !important;
+  /* margin-left: 15px; */
+  /* margin-top: 60px !important; */
+
+}
 .FrontGrid {
   margin-top: 120px !important;
 }
@@ -16,6 +26,16 @@
   text-align: center;
   margin-top: 50px;
   margin-left: 50px;
+
+}
+
+p.styles_typicalWrapper__1_Uvh{
+  font-size: 15px !important;
+  width: 100% !important;
+  
+  margin-left: 10px !important;
+  /* margin-left: 15px; */
+  /* margin-top: 60px !important; */
 
 }
 
