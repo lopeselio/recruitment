@@ -15,6 +15,7 @@
   height: 100vh;
   width: auto;
   background: #5e8ab4;
+  padding-bottom: 80px !important;
 }
 
 .ACM {
@@ -54,6 +55,7 @@
   font-size: 40px !important;
   font-weight: bold;
   margin-left: 10px !important;
+  padding-bottom: 40px !important;
   /* margin-left: 15px; */
   /* margin-top: 60px !important; */
 

@@ -7,6 +7,7 @@ import axios from 'axios'
 import Grid from '@material-ui/core/Grid'
 // import Button from '@material-ui/core/Button'
 import Front from './../../../src/components/Front/main'
+import image from './../../assets/form.svg'
 
 class Register extends Component {
   constructor (props) {
@@ -117,7 +118,9 @@ class Register extends Component {
             className='empty'
             item xs={12}
             md={4}
-          />
+          >
+            <img className='img' src={image} />
+          </Grid>
 
         </Grid>
       </div>

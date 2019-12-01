@@ -13,7 +13,12 @@
     bottom: 0;
     left:0;
     width: 100%;
+    margin-top: 0px !important;
     
+}
+
+.reg{
+    padding-top: 5px;
 }
 
 .FooterGrid {
@@ -45,9 +50,10 @@
 
 .sm {
     /* float: left; */
-    height: 30px;
-    width: 30px;
+    height: 30px !important;
+    width: 30px !important;
     margin: 0 10px;
+    /* margin-top: 0px; */
     /* margin-left: 20px; */
 }
 
@@ -57,11 +63,7 @@
     padding-bottom: 70px;
 }
 
-.contain {
-    background: #5e8ab4;
-    color: white;
-    padding: 10px 20px;
-}
+
 
 .vitlg {
     text-align: center;

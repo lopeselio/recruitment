@@ -3,11 +3,23 @@
   width: auto;
   background-color: #fff!important;
   color: #5e8ab4;
+  margin-bottom: 0px !important;
+}
+.img {
+  height: auto !important;
+  width: 60% !important;
+  margin-top: 20%;
+}
+
+.contain {
+  background: #5e8ab4;
+  width: 100%;
+  color: #fff;
 }
 
 .reg {
   font-size: 60px;
-  padding: 20px 20px;
+  padding: 10px 10px;
   margin: auto;
   width: 50%;
   font-weight: bolder;
@@ -41,6 +53,14 @@
     padding-left:50px !important;
   }
 
+  .contain {
+    background: #5e8ab4;
+    color: white;
+    
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+}
+
   .reg{
     font-size: 40px;
     padding-top: 40px;
@@ -48,5 +68,10 @@
 
   .instruction{
     font-weight: bold;
+  }
+
+  img{
+    margin-left: 70px;
+    margin-bottom: 40px;
   }
 }

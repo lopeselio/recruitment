@@ -52,12 +52,12 @@ p.styles_typicalWrapper__1_Uvh{
 }
 
 .acmlogo {
-  height: 50%;
-  /* width: auto; */
+  height: auto !important;
+  width: 150px !important;
   /* padding-top: 30px; */
   /* vertical-align: center; */
   margin-left: 40%;
-  margin-top: 15px;
+  margin-top: 10px !important;
 }
 
 .name {
