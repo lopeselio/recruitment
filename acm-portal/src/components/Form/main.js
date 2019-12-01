@@ -22,7 +22,7 @@ class Register extends Component {
 
   handleClick (event) {
     var apiBaseUrl = ''
-    console.log('values', this.state.first_name, this.stat.registration_no, this.state.email, this.state.password, this.state.phone_num)
+    console.log('values', this.state.first_name, this.state.registration_no, this.state.email, this.state.password, this.state.phone_num)
     // To be done:check for empty values before hitting submit
     var self = this
     var payload = {
@@ -44,7 +44,6 @@ class Register extends Component {
             homescreen: homescreen,
             regmessage: regmessage
 
-
           })
         }
       })
@@ -56,9 +55,11 @@ class Register extends Component {
   render () {
     return (
       <div className='formContent'>
-        <div className='reg'>Register Here</div>
-        <div className='instruction'>Only for First Year Students. </div>
-        <div className='instruction'>Password will be required for the First Round of Recruitment.</div>
+        <div className='contain'>
+          <div className='reg'>Register Here</div>
+          <div className='instruction'>Only for First Year Students. </div>
+          <div className='instruction'>Password will be required for the First Round of Recruitment.</div>
+        </div>
         <Grid className='FooterGrid' container spacing={0}>
           <Grid
             className='empty'

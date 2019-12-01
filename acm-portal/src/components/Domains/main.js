@@ -22,7 +22,7 @@ export default class Domain extends Component {
                 className='lg'
                 src={tech}
               />
-            </div> <div className='desc'> Technical <br /> and <br /> Research </div>
+            </div> <div className='desc'> Technical and Research</div>
 
           </Grid>
 
@@ -36,7 +36,7 @@ export default class Domain extends Component {
                 className='lg'
                 src={mgmt}
               />
-            </div> <div className='desc'> Management <br /> and <br /> Editorial </div>
+            </div> <div className='desc'>Management and Editorial </div>
           </Grid>
 
           <Grid
@@ -49,7 +49,7 @@ export default class Domain extends Component {
                 src={des}
               />
             </div>
-            <div className='desc'> Design <br /> and <br /> UI / UX </div>
+            <div className='desc'>Design and UI/UX</div>
 
           </Grid>
 

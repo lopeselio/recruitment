@@ -33,6 +33,10 @@
   margin: 100px 50px 50px 50px !important;
 }
 
+span{
+  display: block;
+}
+
 
 
 .heading {
@@ -63,4 +67,24 @@ label {
 
 .tech, .management, .design {
   padding-top: 2% !important ;
+}
+
+@media only screen and (max-width:620px){
+  .lg{
+    height:30% !important;
+    width: 30% !important;
+    margin-left: 25% !important;
+  }
+
+  .domainContent{
+    height: 100%;
+    width: 100%;
+  }
+
+  .desc{
+    font-size: 15px !important;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    display: inline-block !important;
+  }
 }

@@ -9,7 +9,7 @@ import Typical from 'react-typical'
 export default class About extends Component {
   render () {
     return (
-      <div className='AboutContent'>
+      <div className='AboutContent' id='about'>
         <div className='headings'> About Us </div>
         <Grid className='aboutGrid' container spacing={2}>
 

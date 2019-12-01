@@ -3,12 +3,13 @@ import Grid from '@material-ui/core/Grid'
 import './../../styles/front.css'
 import './../../styles/common.css'
 import community from './../../assets/acmfront.svg'
-import { AwesomeButton } from 'react-awesome-button';
+import { AwesomeButton } from 'react-awesome-button'
 // import { AwesomeButton} from 'react-awesome-button';
 import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss'
 import acm from './../../assets/acmlogo.png'
-import Magnifier from 'react-magnifier';
+import Magnifier from 'react-magnifier'
 import Typical from 'react-typical'
+import About from './../../components/About/main'
 
 export default class Front extends Component {
   render () {
@@ -51,8 +52,8 @@ export default class Front extends Component {
             <div className='front-info'>
               <h1>ACM</h1>
               <h2>Core Committee Selections</h2>
-              Right from its inception in 2009, the ACM VIT Student Chapter has been organising and
-              conducting successful technical and professional development events. Teachnology is its
+              Right from its inception in 2009, the ACM VIT Student Chapter has been organising and<br />
+              conducting successful technical and professional development events. Teachnology is its<br />
               course and education is its objective.
 
               <br />
@@ -61,31 +62,32 @@ export default class Front extends Component {
               <div>Technical | Design | Management | Research</div>
             </div>
             <div className='button'>
-              <AwesomeButton
+              <a className='apply' href='#about'>Apply Now</a>
+              {/* <AwesomeButton
                 cssModule={AwesomeButtonStyles}
                 type='primary'
                 ripple
                 href=''
                 target='_blank'
-                // type={select('type', ['primary', 'secondary', 'link'], 'primary')}
+                type={select('type', ['primary', 'secondary', 'link'], 'primary')}
 
                 loadingLabel='Loading..'
                 resultLabel='Done!'
-                // size={select('size', [null, 'small', 'medium', 'large'], 'large')}
-                // disabled={boolean('disabled', false)}
-                // fakePress={boolean('fakePress', false)}
-                // cssModule={cssModule}
-                // action={(element, next) => {
-                //   action('clicked');
-                //   setTimeout(() => {
-                //     next();
-                //   }, 300);
-                // }
+                size={select('size', [null, 'small', 'medium', 'large'], 'large')}
+                disabled={boolean('disabled', false)}
+                fakePress={boolean('fakePress', false)}
+                cssModule={cssModule}
+                action={(element, next) => {
+                  action('clicked');
+                  setTimeout(() => {
+                    next();
+                  }, 300);
+                }
 
-              // }
+              }
               >
                 Apply Now
-              </AwesomeButton>
+              // </AwesomeButton> */}
             </div>
 
           </Grid>

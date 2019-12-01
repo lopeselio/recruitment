@@ -21,10 +21,11 @@ export default class Footer extends Component {
             md={4}
           >
             <div className='ACM-lg'>
-              <img
+              <a href='https://www.acmvit.in/'><img
                 className='acml'
                 src={acm}
               />
+              </a>
             </div>
 
           </Grid>

@@ -1,8 +1,8 @@
 .formContent, .hintText {
   height: 100vh;
   width: auto;
-  background-color: #9d2235 !important;
-  color: white;
+  background-color: #fff!important;
+  color: #5e8ab4;
 }
 
 .reg {
@@ -26,6 +26,27 @@
 }
 
 #undefined-EnteryourName-Name-14709 {
-  background-color: red !important;
+  background-color: #fff !important;
   color: #fff !important;
+}
+
+@media only screen and (max-width:620px){
+  .formContent{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px !important;
+  }
+
+  .form{
+    padding-left:50px !important;
+  }
+
+  .reg{
+    font-size: 40px;
+    padding-top: 40px;
+  }
+
+  .instruction{
+    font-weight: bold;
+  }
 }
