@@ -22,7 +22,7 @@ class Register extends Component {
 
   handleClick (event) {
     var apiBaseUrl = ''
-    // console.log('values', this.state.first_name, this.stat.registration_no, this.state.email, this.state.password, this.state.phone_num)
+    console.log('values', this.state.first_name, this.stat.registration_no, this.state.email, this.state.password, this.state.phone_num)
     // To be done:check for empty values before hitting submit
     var self = this
     var payload = {
